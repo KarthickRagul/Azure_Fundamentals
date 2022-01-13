@@ -18,5 +18,5 @@ Advantages :
        * IMAGE - Type of server (Windows server, windows 10 pro(License required), ubuntu)
        * SIZE - Size of the server (Cpus,GIB memeries)
        * Billing includes the license for windows server (We can mention and cut down the lincense cost if we have the license)
-       * 
+       
 
