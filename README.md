@@ -20,7 +20,7 @@ Advantages :
        * Billing includes the license for windows server (We can mention and cut down the lincense cost if we have the license) called as **Azure Hybrid Benefit Pricing**
        * Username and password are needed for the user to login VM
        * DISK's :
-         * Types of OS Disk's Available :
+         # Types of OS Disk's Available :
              * Premium SSD : Best for production (Better Performance)
              * Standard SSD : Best for Web server
              * Standard HDD : Best for Backup
