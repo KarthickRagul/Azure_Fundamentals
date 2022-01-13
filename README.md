@@ -14,5 +14,5 @@ Advantages :
  1. Virtual Machine 
        * It is a Compute Resource and IAAS 
        * Devices are launched along with VM in the backend are OS Disk, Virtual Network, Network Interface, Security group, Public IP
-       * These all are should be part of Resource Group and Subscription(for billing purpose)
+       * These all are should be part of Resource Group(for logical grouping purpose) and Subscription(for billing purpose)
 
