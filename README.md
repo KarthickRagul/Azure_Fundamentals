@@ -25,7 +25,13 @@ Advantages :
              * Standard SSD : Best for Web server
              * Standard HDD : Best for Backup
        * Data Disk configuration is optional, We can add the data disk if we need 
-       * 
+       * Connection Types to VM 
+                 * RDP (Connection using windows)
+                 * SSH (Connection using Linux)
+                 * Bastion (Securely connect to the VM)
+       * Login to the VM and configure the IIS to host the web content into the server
+       * We can host the simple HTML File that is saved at the wwwroot folder location in our computer
+       * Different Types of VM's are available as Families or Series (for More details refer the Document)
            
        
 
