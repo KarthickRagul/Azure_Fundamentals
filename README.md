@@ -18,5 +18,14 @@ Advantages :
        * IMAGE - Type of server (Windows server, windows 10 pro(License required), ubuntu)
        * SIZE - Size of the server (Cpus,GIB memeries)
        * Billing includes the license for windows server (We can mention and cut down the lincense cost if we have the license)
+       * Username and password are needed for the user to login VM
+       * DISK's :
+         * Types of OS Disk's Available :
+             * Premium SSD : Best for production (Better Performance)
+             * Standard SSD : Best for Web server
+             * Standard HDD : Best for Backup
+       * Data Disk configuration is optional, We can add the data disk if we need 
+       * 
+           
        
 
