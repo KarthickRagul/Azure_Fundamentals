@@ -32,6 +32,10 @@ Advantages :
        * Login to the VM and configure the IIS to host the web content into the server
        * We can host the simple HTML File that is saved at the wwwroot folder location in our computer
        * Different Types of VM's are available as Families or Series (for More details refer the Document)
-           
+       * Temporary Storage for VM is based on the size of VM
+       * **Shut down from VM itself will not lead to deallocation of physical server but stopping the VM from Azure portal will**
+       * Deallocation will erase the data present in the temporary storage and it changes the public ip address for VM
+       * Stopped state of VM will be partially charged for compute
+       * Deallocation of VM will not be charged for compute
        
 
