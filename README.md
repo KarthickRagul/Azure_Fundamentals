@@ -37,5 +37,7 @@ Advantages :
        * Deallocation will erase the data present in the temporary storage and it changes the public ip address for VM
        * Stopped state of VM will be partially charged for compute
        * Deallocation of VM will not be charged for compute
+       * Changing Dynamic ip address to Static ip address follow these steps:---
+       *
        
 
