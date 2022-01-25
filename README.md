@@ -60,7 +60,7 @@ Fo more details about other services please refer this link : https://docs.micro
  
  **1. Virtual Machine**
       
-      * It is a **Compute Resource** and **IAAS**
+       * It is a **Compute Resource** and **IAAS**
        * Devices are launched along with VM in the backend are OS Disk, Data Disk, Virtual Network, Network Interface, Security group, Public IP
        * These all are should be part of Resource Group(for logical grouping purpose) and Subscription(for billing purpose)
        * IMAGE - Type of server (Windows server, windows 10 pro(License required), ubuntu)
