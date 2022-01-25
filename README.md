@@ -2,13 +2,15 @@
 Key notes for Azure Fundamentals
 
 What is Cloud computing :
-   * Delivery of computing services such as servers, storage, database, networking, software and etc. through internet
+   * Delivery of computing services such as servers, storage, database, networking, software, analytics, inteligence and etc. through internet
    * As Pay As You Go Pricing
 Advantages :
     * Less Management
     * Less Investments
     * Less Operations
     * Focus on business
+
+Services provided by Azure :![image](https://user-images.githubusercontent.com/62194896/150908995-74e7ade8-af19-42d3-b802-e857a58515c4.png)
  
  Azure Core Concepts :
  1. Virtual Machine 
@@ -39,5 +41,6 @@ Advantages :
        * Deallocation of VM will not be charged for compute
        * Changing Dynamic ip address to Static ip address follow these steps:---
        *
+
        
 
