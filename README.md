@@ -12,12 +12,15 @@ Advantages :
 
 Services provided by Azure :![image](https://user-images.githubusercontent.com/62194896/150908995-74e7ade8-af19-42d3-b802-e857a58515c4.png)
 
+
 **Compute**
 Compute services are often one of the primary reasons why companies move to the Azure platform. Azure provides a range of options for hosting applications and services. Here are some examples of compute services in Azure.
     Some Compute Services :- Azure VM's, Azure kubernete, Azure Container Instances, Azure functions and etc.
+
 **Networking**
 Linking compute resources and providing access to applications is the key function of Azure networking. Networking functionality in Azure includes a range of options to connect the outside world to services and features in the global Azure datacenters.
     Some Networking services :- Azure VPN, Azure Load Balancer, Azure Firewall, Azure DNS and etc.
+
 **Storage**
 Azure provides four main types of storage services.
     1. Azure Blob Storage: Storage service for large obj (videos)
@@ -31,6 +34,7 @@ Azure provides four main types of storage services.
     3. **Scalable** with virtually unlimited storage.
     4. **Managed** handling maintenance and any critical problems for you.
     5. **Accessible** from anywhere in the world over HTTP or HTTPS.
+
 **Mobile**
 With Azure, developers can create mobile back-end services for iOS, Android, and Windows apps quickly and easily. Features that used to take time and increase project risks, such as adding corporate sign-in and then connecting to on-premises resources such as SAP, Oracle, SQL Server, and SharePoint, are now simple to include.
 
@@ -39,15 +43,16 @@ With Azure, developers can create mobile back-end services for iOS, Android, and
     2. Connectivity to on-premises data.
     3. Broadcasting push notifications.
     4. Autoscaling to match business needs.
+
 **Databases**
 Azure provides multiple database services to store a wide variety of data types and volumes. And with global connectivity, this data is available to users instantly.
     Some DB Services :Azure Cosmos DB(No-Sql), Azure SQL Database, SQL Server on Azure Virtual Machines and etc.
+
 **Big data**
 Data comes in all formats and sizes. When we talk about big data, we're referring to large volumes of data. Data from weather systems, communications systems, genomic research, imaging platforms, and many other scenarios generate hundreds of gigabytes of data. This amount of data makes it hard to analyze and make decisions. It's often so large that traditional forms of processing and analysis are no longer appropriate.
 
 Open-source cluster technologies have been developed to deal with these large data sets. Azure supports a broad range of technologies and services to provide big data and analytic solutions.
      Some Services :- Azure Synapse Analytics, Azure HDInsight(Hadoop), Azure Databricks(Spark)
-
 
 Fo more details about other services please refer this link : https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services
 
@@ -79,7 +84,7 @@ Fo more details about other services please refer this link : https://docs.micro
        * Stopped state of VM will be partially charged for compute
        * Deallocation of VM will not be charged for compute
        * Changing Dynamic ip address to Static ip address follow these steps:---
-       *
+           
 
        
 
