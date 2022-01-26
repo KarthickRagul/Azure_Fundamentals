@@ -64,6 +64,9 @@ Fo more details about other services please refer this link : https://docs.micro
 
 ![image](https://user-images.githubusercontent.com/62194896/151197413-d7ed1be5-2ca2-4dbb-baff-267eb4e67b64.png)
 
+# Top-down hierarchy of organization :
+
+![image](https://user-images.githubusercontent.com/62194896/151199317-4a35d6f2-2671-4dba-8ad0-e71655652be9.png)
 
 
  # Azure Core Concepts :
