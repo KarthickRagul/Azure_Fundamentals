@@ -68,6 +68,16 @@ Fo more details about other services please refer this link : https://docs.micro
 
 ![image](https://user-images.githubusercontent.com/62194896/151199317-4a35d6f2-2671-4dba-8ad0-e71655652be9.png)
 
+**Region Pairs :**
+
+![image](https://user-images.githubusercontent.com/62194896/151201455-79c2befc-9995-4f4a-9d9d-a2cc48d47a85.png)
+
+Additional advantages of region pairs:
+
+* If an extensive Azure outage occurs, one region out of every pair is prioritized to make sure at least one is restored as quickly as possible for applications hosted in that region pair.
+* Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
+* Data continues to reside within the same geography as its pair (except for Brazil South) for tax- and law-enforcement jurisdiction purposes.
+
 
  # Azure Core Concepts :
  
