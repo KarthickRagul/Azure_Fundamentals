@@ -78,6 +78,22 @@ Additional advantages of region pairs:
 * Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
 * Data continues to reside within the same geography as its pair (except for Brazil South) for tax- and law-enforcement jurisdiction purposes.
 
+**Azure Resource Manager**
+Azure Resource Manager is the deployment and management service for Azure. It provides a management layer that enables you to create, update, and delete resources in your Azure account. You use management features like access control, locks, and tags to secure and organize your resources after deployment.
+
+  ![image](https://user-images.githubusercontent.com/62194896/151204806-7368fc40-fa1b-493d-bc25-f736088e542d.png)
+
+**The benefits of using Resource Manager
+With Resource Manager, you can:**
+
+* Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is a JSON file that defines what you want to deploy to Azure.
+* Deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.
+* Redeploy your solution throughout the development life cycle and have confidence your resources are deployed in a consistent state.
+* Define the dependencies between resources so they're deployed in the correct order.
+* Apply access control to all services because RBAC is natively integrated into the management platform.
+* Apply tags to resources to logically organize all the resources in your subscription.
+* Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
+
 
  # Azure Core Concepts :
  
