@@ -56,7 +56,8 @@ Open-source cluster technologies have been developed to deal with these large da
 
 Fo more details about other services please refer this link : https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services
 
-#Different Cloud Service Models:
+# Different Cloud Service Models:
+
 ![image](https://user-images.githubusercontent.com/62194896/151186470-8b6de292-b02b-45ca-bb85-3b72458c544e.png)
 
 
