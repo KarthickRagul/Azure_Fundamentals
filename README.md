@@ -60,6 +60,11 @@ Fo more details about other services please refer this link : https://docs.micro
 
 ![image](https://user-images.githubusercontent.com/62194896/151186470-8b6de292-b02b-45ca-bb85-3b72458c544e.png)
 
+# Shared Responsibility Model :
+
+![image](https://user-images.githubusercontent.com/62194896/151197413-d7ed1be5-2ca2-4dbb-baff-267eb4e67b64.png)
+
+
 
  # Azure Core Concepts :
  
