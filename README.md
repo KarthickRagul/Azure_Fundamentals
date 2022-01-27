@@ -98,6 +98,19 @@ With Resource Manager, you can:**
  # Azure Core Concepts :
  
  **1. Virtual Machine**
+ 
+An Azure VM gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs the VM. You still need to configure, update, and maintain the software that runs on the VM.
+
+Examples of when to use VM's:
+1. During testing and development
+2. When running applications in the cloud
+3. When extending your datacenter to the cloud
+4. During disaster recovery
+
+Scale VM's in Azure:
+Two features :
+* Virtual machine scale sets(Auto increase or decrease of VM's based on the workloads for high availability)
+* Azure Batch(Azure Batch enables large-scale parallel and high-performance computing (HPC) batch jobs with the ability to scale to tens, hundreds, or thousands of VMs)
       
        * It is a **Compute Resource** and **IAAS**
        * Devices are launched along with VM in the backend are OS Disk, Data Disk, Virtual Network, Network Interface, Security group, Public IP
