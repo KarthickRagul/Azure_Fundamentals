@@ -148,6 +148,7 @@ Two features :
    
    Types of app services
      With App Service, you can host most common app service styles like:
+       
         * Web apps
         * API apps
         * WebJobs
@@ -157,7 +158,8 @@ Two features :
   While virtual machines are an excellent way to reduce costs versus the investments that are necessary for physical hardware, they're still limited to a single operating system per virtual machine. If you want to run multiple instances of an application on a single host machine, containers are an excellent choice.
   What are containers :
       
-      **Containers are a virtualization environment**. Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you don't manage the operating system for a container. While it's possible to create and deploy virtual machines as application demand increases, containers are designed to allow you to respond to changes on demand. With containers, you can quickly restart in case of a crash or hardware interruption. One of the most popular container engines is **Docker**, which is supported by Azure.
+      **Containers are a virtualization environment**. 
+      Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you don't manage the operating system for a container. While it's possible to create and deploy virtual machines as application demand increases, containers are designed to allow you to respond to changes on demand. With containers, you can quickly restart in case of a crash or hardware interruption. One of the most popular container engines is **Docker**, which is supported by Azure.
      
      **Major Difference between VM's and Containers**
          * VM virtualizes the Hardware's but Containers virtualizes the OS(Environments)
