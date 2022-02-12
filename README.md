@@ -155,12 +155,37 @@ Two features :
         * Mobile apps
  
  **3. Azure Container Instances or Azure Kubernetes Service**
+ 
   While virtual machines are an excellent way to reduce costs versus the investments that are necessary for physical hardware, they're still limited to a single operating system per virtual machine. If you want to run multiple instances of an application on a single host machine, containers are an excellent choice.
   
-  What are containers :
+   What are containers : 
   **Containers are a virtualization environment**. 
       Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you don't manage the operating system for a container. While it's possible to create and deploy virtual machines as application demand increases, containers are designed to allow you to respond to changes on demand. With containers, you can quickly restart in case of a crash or hardware interruption. One of the most popular container engines is **Docker**, which is supported by Azure.
      
    **Major Difference between VM's and Containers**
        * VM virtualizes the Hardware's but Containers virtualizes the OS(Environments)
        * VM (Complete control over the environment), Containers(Portability and Performance)
+  
+  Containers are managed through a container orchestrator, which can start, stop, and scale out application instances as needed. There are two ways to manage both Docker and Microsoft-based containers in Azure: Azure Container Instances and Azure Kubernetes Service (AKS).    
+   **Azure Container Instances**
+       It offers the fastest and simplest way to run a container in Azure without having to manage any virtual machines or adopt any additional services. It's a platform as a service (PaaS).
+   **Azure Kubernetes Service**
+       The task of automating, managing, and interacting with a large number of containers is known as orchestration. Azure Kubernetes Service is a complete orchestration service for containers with distributed architectures and large volumes of containers.
+   **What is Kubernetes**
+       It Manages the containers with the Clustered Node. Scaling can be done by manual or automation. Updates are quick and if the updates are problematic then it will role back to the previous version. It also manages the storage and networking.
+       
+       
+ **Azure Functions**
+     Serverless computing is the abstraction of servers, infrastructure, and operating systems. With serverless computing, Azure takes care of managing the server infrastructure and the allocation and deallocation of resources based on demand. Serverless computing includes the **abstraction of servers, an event-driven scale, and micro-billing**.
+     
+     Azure has two implementations of serverless compute:
+
+         **Azure Functions:** Functions can execute code in almost any modern language.
+         **Azure Logic Apps:** Logic apps are designed in a web-based designer and can execute logic triggered by Azure services without writing any code.
+         
+         Refer this link for some of the common differences between Functions and Logic Apps https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-functions
+         
+         Refer this link for know about **Virtual Desktops** https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/windows-virtual-desktop
+         
+         
+     
