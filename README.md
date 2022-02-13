@@ -126,8 +126,8 @@ Two features :
              * Standard HDD : Best for Backup
        * Data Disk configuration is optional, We can add the data disk if we need 
        * Connection Types to VM 
-                 * **RDP (Connection using windows)**
-                 * **SSH (Connection using Linux)**
+                 * **RDP (Connection Protocal for windows machine)**
+                 * **SSH (Connection Protocal for Linux machine)**
                  * **Bastion (Securely connect to the VM)**
        * Login to the VM and configure the IIS to host the web content into the server
        * We can host the simple HTML File that is saved at the wwwroot folder location in our computer
@@ -141,6 +141,18 @@ Two features :
               * Disassociate the public Ip using networking->ip config tab 
               * Choose Ip type as Static from the VM
               * And then Associate the static ip
+       * We can check the limit for vm creation for a particular region by subcription->usage and quotas
+       * **Azure Marketplace for VM** where you can install softwares for ur virtual machine
+       * **Avaliablity Sets** are used to maintain the availability of VM's, If one goes down then another one back up's. It will be only in server level not app level
+              * Fault domains (2-default, 3-max)      *Update domains (5-default, 20-max)  
+       * Note: We can't make existing vm as part of availability sets
+       * **Avaliablity Zone's** are used for backup of data center failure. It charges extra cost for bandwidth communication
+       * **Note :** We can choose availability set or Avail Zone in the **Availability options** when creating VM's
+       * **Azure Dedicated Host** 
+              * Hardware Isolation - No other VM's will be placed on the host
+              * You can control the maintenance events
+              * Mostly used by the large org, (Min 91 vCpus should be utilized)
+   
            
 **2. Azure App Service**
   
