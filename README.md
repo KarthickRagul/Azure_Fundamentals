@@ -138,6 +138,9 @@ Two features :
        * Stopped state of VM will be partially charged for compute
        * Deallocation of VM will not be charged for compute
        * Changing Dynamic ip address to Static ip address follow these steps:---
+              * Disassociate the public Ip using networking->ip config tab 
+              * Choose Ip type as Static from the VM
+              * And then Associate the static ip
            
 **2. Azure App Service**
   
