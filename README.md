@@ -138,9 +138,9 @@ Two features :
        * Stopped state of VM will be partially charged for compute
        * Deallocation of VM will not be charged for compute
        * Changing Dynamic ip address to Static ip address follow these steps:---
-              * Disassociate the public Ip using networking->ip config tab 
-              * Choose Ip type as Static from the VM
-              * And then Associate the static ip
+              * Disassociate the public Ip using VM->networking->network interface->ip configuration->inconfig->disassociate 
+              * Choose Ip type as Static from the VM->public ip->static
+              * And then Associate the static ip VM->networking->network interface->ip configuration->ip config-> associate 
        * We can check the limit for vm creation for a particular region by subcription->usage and quotas
        * **Azure Marketplace for VM** where you can install softwares for ur virtual machine
        * **Avaliablity Sets** are used to maintain the availability of VM's, If one goes down then another one back up's. It will be only in server level not app level
@@ -205,5 +205,3 @@ Two features :
          
     Refer this link for know about **Virtual Desktops** https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/windows-virtual-desktop
          
-         
-     Hiiiiii
