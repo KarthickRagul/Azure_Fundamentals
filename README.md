@@ -95,7 +95,7 @@ With Resource Manager, you can:**
 * Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
 
 
- # Azure Core Concepts :
+ # Azure Compute Core Concepts :
  
 **1. Virtual Machine**
  
@@ -204,4 +204,18 @@ Two features :
     Refer this link for some of the common differences between Functions and Logic Apps https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-functions
          
     Refer this link for know about **Virtual Desktops** https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/windows-virtual-desktop
+    
+    
+# Azure Virtual Network
+
+   Azure virtual networks enable Azure resources, such as VMs, web apps, and databases, to communicate with each other, with users on the internet, and with your on-premises client computers. You can think of an Azure network as a set of resources that links other Azure resources.
+   Azure virtual networks provide the following key networking capabilities:
+
+       1. Isolation and segmentation
+       2. Internet communications
+       3. Communicate between Azure resources
+       4. Communicate with on-premises resources
+       5. Route network traffic
+       6. Filter network traffic
+       7. Connect virtual networks
          
