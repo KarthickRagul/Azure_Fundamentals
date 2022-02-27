@@ -233,12 +233,12 @@ Two features :
       
    # Azure Virtual Network
 
-          The Azure Virtual Network service is used to define an isolated network in Azure. The virtual network can then be used to host your resources such as Azure virtual machines. The Azure virtual network gets assigned an address space which you specify when you create an Azure virtual network. You can then add subnets to your Azure virtual network. This helps divide your network into more logical segments. An example is shown below of having multiple subnets. You could have one subnet named SubnetA in the virtual network to host your Web servers and another subnet to host the Database servers.
+   The Azure Virtual Network service is used to define an isolated network in Azure. The virtual network can then be used to host your resources such as Azure virtual machines. The Azure virtual network gets assigned an address space which you specify when you create an Azure virtual network. You can then add subnets to your Azure virtual network. This helps divide your network into more logical segments. An example is shown below of having multiple subnets. You could have one subnet named SubnetA in the virtual network to host your Web servers and another subnet to host the Database servers.
           ![image](https://user-images.githubusercontent.com/62194896/155876048-4b18adc3-a0a8-4e15-a57b-3c2eec7e9aa6.png)
           
    ## Network Security Groups
       
-          These are used to filter network traffic to and from Azure resources in an Azure virtual network. A network security group is attached to the network interface attached to the virtual machine. A network security group consists of Inbound rules that are used to control the traffic inbound into a virtual machine. By default all traffic into a virtual machine is DENIED. You have explicitly add rules to allow traffic into a virtual machine. There are also outbound rules to control the traffic flowing out of the virtual machine. By default all traffic outbound onto the Internet is allowed.
+   These are used to filter network traffic to and from Azure resources in an Azure virtual network. A network security group is attached to the network interface attached to the virtual machine. A network security group consists of Inbound rules that are used to control the traffic inbound into a virtual machine. By default all traffic into a virtual machine is DENIED. You have explicitly add rules to allow traffic into a virtual machine. There are also outbound rules to control the traffic flowing out of the virtual machine. By default all traffic outbound onto the Internet is allowed.
           ![image](https://user-images.githubusercontent.com/62194896/155876102-7faeea43-35e0-4ed2-8a1f-98245794cd76.png)
           
    ## Virtual Network Peering
