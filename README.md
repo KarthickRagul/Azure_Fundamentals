@@ -227,30 +227,30 @@ Two features :
        
    ## Azure VPN Gateways
       
-      1. Connect on-premises datacenters to virtual networks through a site-to-site connection.
-      2. Connect individual devices to virtual networks through a point-to-site connection.
-      3. Connect virtual networks to other virtual networks through a network-to-network connection.
+   1. Connect on-premises datacenters to virtual networks through a site-to-site connection.
+   2. Connect individual devices to virtual networks through a point-to-site connection.
+   3. Connect virtual networks to other virtual networks through a network-to-network connection.
       
-      # Azure Virtual Network
+   # Azure Virtual Network
 
           The Azure Virtual Network service is used to define an isolated network in Azure. The virtual network can then be used to host your resources such as Azure virtual machines. The Azure virtual network gets assigned an address space which you specify when you create an Azure virtual network. You can then add subnets to your Azure virtual network. This helps divide your network into more logical segments. An example is shown below of having multiple subnets. You could have one subnet named SubnetA in the virtual network to host your Web servers and another subnet to host the Database servers.
           ![image](https://user-images.githubusercontent.com/62194896/155876048-4b18adc3-a0a8-4e15-a57b-3c2eec7e9aa6.png)
           
-      # Network Security Groups
+   # Network Security Groups
       
           These are used to filter network traffic to and from Azure resources in an Azure virtual network. A network security group is attached to the network interface attached to the virtual machine. A network security group consists of Inbound rules that are used to control the traffic inbound into a virtual machine. By default all traffic into a virtual machine is DENIED. You have explicitly add rules to allow traffic into a virtual machine. There are also outbound rules to control the traffic flowing out of the virtual machine. By default all traffic outbound onto the Internet is allowed.
           ![image](https://user-images.githubusercontent.com/62194896/155876102-7faeea43-35e0-4ed2-8a1f-98245794cd76.png)
           
-      # Virtual Network Peering
+   # Virtual Network Peering
       
 Virtual Network Peering is used to connect two Azure virtual networks together via the backbone network. Azure supports connecting two virtual networks located in the same region or networks located across regions. Once you enable virtual network peering between two virtual networks, the virtual machines can then communicate via their private IP addresses across the peering connection. You can also peer virtual networks that are located across different subscriptions. The virtual networks can't have overlapping CIDR blocks.
 
-      # Point-to-Site VPN Connection
+   # Point-to-Site VPN Connection
       
 A Point-to-Site VPN connection is used to establish a secure connection between multiple client machines and an Azure virtual network via the Internet. Below is a diagram from the Microsoft documentation on a sample scenario
          ![image](https://user-images.githubusercontent.com/62194896/155876267-fae490af-b48e-43ee-aec1-df5ec003850b.png)
          
-      # Site-to-Site VPN Connection
+   # Site-to-Site VPN Connection
       
 A Site-to-Site VPN connection is used to establish a secure connection between an on-premise network and an Azure network via the Internet. Below is a diagram from the Microsoft documentation on a sample scenario
          ![image](https://user-images.githubusercontent.com/62194896/155876340-1615f232-3369-4004-9b47-cef97b58aa27.png)
