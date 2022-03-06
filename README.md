@@ -258,7 +258,58 @@ A Site-to-Site VPN connection is used to establish a secure connection between a
 On the on-premise side, you need to have a VPN device that can route traffic via the Internet onto the VPN gateway in Azure. The VPN device can be a hardware device like a Cisco router or a software device ( e.g Windows Server 2016 running Routing and Remote services). The VPN device needs to have a publically routable IP address. The subnets in your on-premise network must not overlap with the subnets in your Azure virtual network. The Site-to-Site VPN connection uses an IPSec tunnel to encrypt the traffic. The VPN gateway resource you create in Azure is used to route encrypted traffic between your on-premise data center and your Azure virtual network.
 
 
+# Azure Storage Accounts
 
+* This service is used to store objects(Images, Videos, files, etc.) on the cloud.
+* Here you can make use of different services - Blob, File shares, Queues, Table
+   
+   ## Types of different storage accounts
+       
+       * Standard general purpose v2 (Gives access to blob, files, queue, table)
+       * Premium block blobs (This is the premium storage for your block blobs)
+       * Premium File Shares (This is the premium storage account for ur file shares)
+       * Premium page blobs (This is the premium storage account for ur page blobs)
+       
+   ## Blob Storage
+   
+       * This service is for optimized for storing large amount of unstructured data
+       * Examples : Storing images, videos, log files, documents
+       * In this blob service, ucan create container. This is used to organize a set of blobs
+       * Block blobs - This is used to store text and binary data
+       * Page blobs - This is used to store virtual hard drive files that are used as disks for ur azure VM's
+   
+   ## File Service 
+   
+       * This is used for hosting file shares on the cloud
+       * This shares can be accessed via the SMB - Server Message blob protocol
+       * You can mount the files from windows, linux, macOS clients.
+    
+   ## Azure Queues
+   
+       * This is used for storing large amount of messages
+       * These messages can be accessed from anywhere in the world by HTTP, HTTPS protocols
+       * You can store millions of messages in queue
+    
+   ## Azure Table
+    
+       * This service is used for storing non-relational structured data
+       * It is ideal for storing flexible data sets bacause it does not conform to any sort of schema
+       * In the table, you can store an entity which is a set of properties
+       * A property is nothing but a name-value pair
+       * The partition key is used to split the data across various partitions. And the row key is used to identify an item within a partition.
+    
+  ## Active Tiers
+      
+      * **Hot** : This is optimized for data that is accessed frequently.
+      * **Cool** : This is for data that is infrequently accessed ans stored for atleast 30 days.
+      * **Archive** : This is for data that is rarely accessed ans stored for atleast 180 days.
 
+  ## Data Redundancy 
+  
+      * **Locally Redundant Storage** : Data is copied synchronously three times within a single physical location in the primary region.
+      * **Zone Redundant Storage** : Data is copied synchronously three availability zones in the primary region.
+      * **Geo-Redundant Storage**: Data is copied synchronously three times within a single physical location in the primary region using LRS. It then copies your data asy to a single physical location in the secondary region.
+      * **Geo-Zone-redundant storage** : Data is copied synchronously three availability zones in the primary region using ZRS. It then copies ur data asy to a single physical location in the secondary region 
+ 
 
 
