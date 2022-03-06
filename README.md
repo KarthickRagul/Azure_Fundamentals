@@ -311,5 +311,7 @@ On the on-premise side, you need to have a VPN device that can route traffic via
       * **Geo-Redundant Storage**: Data is copied synchronously three times within a single physical location in the primary region using LRS. It then copies your data asy to a single physical location in the secondary region.
       * **Geo-Zone-redundant storage** : Data is copied synchronously three availability zones in the primary region using ZRS. It then copies ur data asy to a single physical location in the secondary region 
  
+ 
+ 
 
 
