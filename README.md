@@ -312,6 +312,26 @@ On the on-premise side, you need to have a VPN device that can route traffic via
       * **Geo-Zone-redundant storage** : Data is copied synchronously three availability zones in the primary region using ZRS. It then copies ur data asy to a single physical location in the secondary region 
  
  
+ ## Azure SQL DataBase 
+ 
+      * This is a PAAS Service, It's underlined infrastructure is managed for you. Backups are managed for you, gives high availability
+      
+      * Azure database for MySql :
+          * Mysql is a open-source RDBMS
+          * We can store the data in the form of tables
+          * We can query using SQL
+          * It is a fully managed database service
+          * Underlying platform is managed by the service itself
+          * High availability, backups, patching as well
+          
+      * Azure database for PostgreSQL :
+          * It is also open-source
+          * It has support for transaction that follow the ACID concepts - Atomicity, Consistency, Isolation, Duralability
+          * It also supports views, triggers, foreign keys, stored procedures
+          * Fully managed database service
+          * Underlying infra is managed by the service itself
+          * High availability, backups and patching as well
+ 
  
 
 
