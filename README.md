@@ -323,6 +323,7 @@ On the on-premise side, you need to have a VPN device that can route traffic via
           * It is a fully managed database service
           * Underlying platform is managed by the service itself
           * High availability, backups, patching as well
+          * Note : While connecting to mysql server from mysql workbench(Client tool) we need to enable client ip address option in 'Connection Security' in the resource
           
       * Azure database for PostgreSQL :
           * It is also open-source
@@ -331,6 +332,20 @@ On the on-premise side, you need to have a VPN device that can route traffic via
           * Fully managed database service
           * Underlying infra is managed by the service itself
           * High availability, backups and patching as well
+          
+      * Azure Pricing Tiers :
+          1. Database Transaction Units
+             * This is a blended measure of CPU, memory, input/output 
+             * There are some different models available 
+                 * Basic   * Standard   * Premium
+          2. vCore based purchasing model
+             * we can independently scale compute and storage
+             * WE can make use of the HYBRID benefit model if we have the license
+          3. Managed Instance 
+             * This is a deployment model that provides native integration with the azure virtual network service
+             * It provides 100% Compatibility with the latest sql server features
+             * Infra is managed for u
+             * Easy Migration of on-premises databases to the managed instance
  
  
 
