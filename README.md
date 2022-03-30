@@ -347,6 +347,13 @@ On the on-premise side, you need to have a VPN device that can route traffic via
              * Infra is managed for u
              * Easy Migration of on-premises databases to the managed instance
  
+ ## Azure Datawarehouse Enterprise Architecture
  
+        1. Ingest : Data Synapse Pipeline, Data Lake
+        2. Store : Azure data lake gen 2 storage account 
+        3. Prep and Train : Azure synapse apache spark, Azure synapse dedicated sql pool 
+        
+        (Note : while creating storage account need to select checkbox for enable hierarchical namespace for Data lake)
+        
 
 
