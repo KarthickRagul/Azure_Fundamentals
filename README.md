@@ -355,5 +355,24 @@ On the on-premise side, you need to have a VPN device that can route traffic via
         
         (Note : while creating storage account need to select checkbox for enable hierarchical namespace for Data lake)
         
+ ## Azure Cosmos DB
+       
+        * It is a No-sql database or Non-relational database
+        * It is fully managed nosql database
+        * The database provides fast response and is highly scalable
+        * Infra is managed by service itself
+        * Commonly used for web, mobile, gaming and IOT appplication that needs to be handled mssive amount of data
+        
+        ### CosmosDB API
+        * Core SQL API : If u want to query for items using sql
+        * MongoDB API : If u want to host a MongoDB compatible database
+        * Cassandra API : If u want to host a Cassandra compatible database
+        * Gremlin API : If u want to host a graph-based database
+        * Table API :If u want to host a tables-based database
+        
+ ## Difference between Azure SQL database and Azure cosmosDB
+ 
+        * Azure sql database : when u need to have relationship between tables, when u want to have a constraints like foreign key
+        * Azure cosmosDB : No sql data store, flexible schema, no need to joins between data structures
 
 
