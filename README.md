@@ -470,3 +470,35 @@ Note:- When a blob is in the archive tier, you can’t access the blob. You have
 
 Also the storage costs are the least when it comes to the Archive access tier. But the access costs are the highest.
 
+## Azure SQL Database (Platform as a service)
+
+* This is a service that allows you to create a managed Microsoft SQL Server database on the cloud. The advantages of using this service
+
+* You don't have to manage the underlying infrastructure. This is managed by Azure.
+
+* You have a variety of purchasing options
+
+* You have automated backups. This reduces the burden of managing backups.
+
+* It gives you a service level agreement of 99.99%
+
+* If you need to have more control over the database engine, then consider installing the SQL Server engine on an Azure virtual machine.
+
+## Azure Synapse Analytics
+
+* This was formerly known as Azure SQL Data warehouse.
+
+* This service is used for enterprise data warehousing and Big Data Analytics
+
+* When you want to perform analysis on a large data set , consider using this service.
+
+* Below is a snapshot from the Microsoft documentation on where this tool fits in the picture of Big Data
+
+
+## Azure Cosmos DB
+
+* This is a data store that companies can opt for , when they want to get low latency access to their data and they want high availability for their data.
+
+* It is a multi-model database. This means you can choose from a variety of options when it comes to what type of data you want to store in the account.
+
+
