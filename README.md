@@ -375,4 +375,98 @@ On the on-premise side, you need to have a VPN device that can route traffic via
         * Azure sql database : when u need to have relationship between tables, when u want to have a constraints like foreign key
         * Azure cosmosDB : No sql data store, flexible schema, no need to joins between data structures
 
+## Azure Databricks
+        
+        * It is a platform as a service, underlying infra is managed by the service itself. 
+        * It is fully managed, cloud based platform used for Big data and Machine Learning
+        * Databricks itself as a tool that is used to analyzeyour data
+        * It is based on **Apache Spark**
+        * Apache spark is a processing engine that is used to analyze big data using SQL, machine learning, graph processing, or real time stream analysis
+        * Azure Data bricks is a managed version of Databricks
+        
+   ## Complete Notes on Azure storage 
+   
+   ## Azure Storage Accounts
+
+### Types of storage accounts
+
+ * General-purpose v2 accounts – This is recommended for most scenarios. This storage account type provides the blob, file , queue and table service.
+
+ * Premium block blobs – This is specifically when you want premium performance for storing block or append blobs.
+
+ * Premium file shares – This is specifically when you want premium performance for file-only storage.
+
+ * Premium page blobs – This is specifically when you want premium performance for page blobs.
+
+ * The most common type of storage account is the General Purpose v2 storage account.
+
+ * Use case scenarios for the different services in a General Purpose v2 storage account
+
+##Blob service
+
+ * This is object storage for the cloud.
+
+ * Here you can store massive amounts of unstructured data on the cloud.
+
+ * This is highly recommended when you want to store images, documents, video and audio files.
+
+ * Within the blob service, you create a container that is used to store the blob objects.
+
+## There are three different types of blobs
+
+ 1. Block blobs – This is used for storing text and binary data.
+
+ 2. Append blobs – This is ideal for logging data.
+
+ 3. Page blobs – This is used to store virtual hard disk files for Azure virtual machines.
+
+
+Note : To use the Blob service you have to first create a container and then upload the blobs or objects into the container.
+When you upload an object or blob to the service, each bob gets a unique URL which you can access if you are assigned the right permissions
+
+
+## File service - Use this service if you need to store files that need to be accessed by machines using the SMB (Server Message Block) protocol
+
+In the File service, you can first go ahead and create a file share.
+
+You can then mount this file share from different machines. You can't mount drives with the Blob service.
+
+
+## Table service - Use this if you want to store NoSQL data or table like data.
+
+It's easy and simple to create a table and add data from the Azure portal itself.
+
+
+## Queue service - Use this if you want to exchange messages between components of your application
+
+
+## Azure Storage Accounts - Replication
+
+There are different replication techniques available to make your data highly available.
+
+The different replication techniques available
+
+1. Locally-redundant storage (LRS) - Here data is replicated synchronously three times within a physical location in the primary region.
+
+2. Zone-redundant storage (ZRS) - Here data is replicated synchronously across three Azure availability zones in the primary region. This is good when you want to have data present even in the event of a data center failure.
+
+3. Geo-redundant storage (GRS) - Here data is replicated synchronously three times in the primary region, then replicated asynchronously to the secondary region.
+
+4. Read access Geo-redundant storage (RA-GRS) - Here data is replicated synchronously three times in the primary region, then replicated asynchronously to the secondary region. Here the data in the secondary region is also available for read-only purposes.
+
+## Azure Storage Accounts - Access tiers
+
+Access tiers help you optimize the storage costs and access costs for your data. The different access tiers are
+
+1. Hot – This is optimized for storing data that is accessed frequently. This can be set at the account level.
+
+2. Cool – This is optimized for storing data that is infrequently accessed and stored for at least 30 days. This can be set at the account level.
+
+Note:- For the Cool Access tier , the storage costs are lower than the Hot tier. But the access costs are higher than the Hot access tier.
+
+3. Archive tier - This is optimized for storing data that is rarely accessed and stored for at least 180 days. This can be set only at the blob level.
+
+Note:- When a blob is in the archive tier, you can’t access the blob. You have to rehydrate the blob first before it can be accessed.
+
+Also the storage costs are the least when it comes to the Archive access tier. But the access costs are the highest.
 
