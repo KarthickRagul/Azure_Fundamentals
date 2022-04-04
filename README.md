@@ -502,3 +502,44 @@ Also the storage costs are the least when it comes to the Archive access tier. B
 * It is a multi-model database. This means you can choose from a variety of options when it comes to what type of data you want to store in the account.
 
 
+## Azure Load Balancer 
+
+* This is service is used to distribute the incoming network traffic across a group of backend resources of servers
+
+* You can define TWO types of load balancers - Public or Private 
+
+* You have 2 SKU's for the load balancer - Standard and Basic load balancer
+
+### Features of Basic Load Balancer 
+
+* Pricing : You are not charged for the running cost for the load balancer
+
+* No SLA : There is no SLA (If u need SLA for critical app's then choose standard)
+
+* Backend Machines : Here the machines needs to be part of scale set or availability set
+
+* Support for Zones : There is no support for availability zones
+
+### Features of Standard Load Balancer 
+
+* Pricing : Charged per hour
+
+* No SLA : There is an SLA of 99.99%
+
+* Backend Machines : Here the machines can be part of scale set or availability set or individual machines 
+
+* Support for Zones : Here you get support for availability zones
+
+### Components of Load Balancer 
+
+1. Frontend IP : Here you define the public IP address for the load balancer
+2. Backend Pool : This contains the backend virtual machines 
+3. Health Probes : This helps to check the status of the backend pool 
+4. Rules : The load balacing rules define how to distribute the incoming traffic
+
+
+
+
+
+
+
