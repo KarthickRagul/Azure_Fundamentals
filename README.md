@@ -537,6 +537,41 @@ Also the storage costs are the least when it comes to the Archive access tier. B
 3. Health Probes : This helps to check the status of the backend pool 
 4. Rules : The load balacing rules define how to distribute the incoming traffic
 
+## Azure Using Powershell - Notes
+
+The following can be used as a reference for the previous chapter
+
+1. You can get the installation notes from the following Microsoft documentation link
+
+   https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
+
+Just ensure to also add the following flag when installing Azure PowerShell ( -AllowClobber).
+
+   Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force -AllowClobber
+
+2. To connect to your Azure account, you can use the following command
+
+   Connect-AzAccount
+
+3. To list down the resource groups in your Azure account, you can use the following command
+
+   Get-AzResourceGroup
+   
+## Azure Using Azure CLI - Notes
+
+The following can be used as a reference for the previous chapter
+
+1. You can get the installation notes from the following Microsoft documentation link
+
+   https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+
+2. To connect to your Azure account, you can use the following command
+
+   az login
+
+3. To list down the resource groups in your Azure account, you can use the following command
+
+   az group list
 
 
 
