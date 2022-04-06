@@ -677,7 +677,7 @@ The following can be used as a reference for the previous chapter
 
       Here we are assuming that a company has similar web applications , both are running using the Azure Web App service. One web application is running in the East         US Region and the other is running in the West US Region.
       
-      ![image](https://user-images.githubusercontent.com/62194896/161919715-a8ad1661-6400-4ac3-b869-3f3852c5706b.png)
+    ![image](https://user-images.githubusercontent.com/62194896/161919715-a8ad1661-6400-4ac3-b869-3f3852c5706b.png)
       
       1. Here we create a Traffic Manager profile and create two endpoints. Each endpoint points to each Azure Web app respectively. We assign a priority of 1 to the         service endpoint attached to the Azure Web App running in the East US region and  a priority of 2 to the other service endpoint.
 
@@ -685,21 +685,21 @@ The following can be used as a reference for the previous chapter
 
       2. The requests could be initially be directed to an Azure Web App located in the East US region , since there is a priority of 1 to the service endpoint               attached to this endpoint.
 
-      ![image](https://user-images.githubusercontent.com/62194896/161919937-50608cbb-8e2b-48a9-84fa-0b0b7c4622eb.png)
+    ![image](https://user-images.githubusercontent.com/62194896/161919937-50608cbb-8e2b-48a9-84fa-0b0b7c4622eb.png)
       
 * If you use the Weighted Routing method , you can actually load balance requests across multiple service endpoints
 
-      ![image](https://user-images.githubusercontent.com/62194896/161920220-52a5b58a-9ea2-44a0-a170-3e0b4f11c8be.png)
+    ![image](https://user-images.githubusercontent.com/62194896/161920220-52a5b58a-9ea2-44a0-a170-3e0b4f11c8be.png)
 
-      Over here , users requests would be directed or load balanced across both web applications running in different regions.
+    Over here , users requests would be directed or load balanced across both web applications running in different regions.
       
 * In the Performance routing method as shown below, users will be directed based on the least latency of an endpoint.
       
-      [image](https://user-images.githubusercontent.com/62194896/161920413-2c3e84e8-9681-4ed6-9532-cdfed02daa2b.png)
+    ![image](https://user-images.githubusercontent.com/62194896/161920413-2c3e84e8-9681-4ed6-9532-cdfed02daa2b.png)
       
 * And then we have the Geographic routing method wherein users would be directed to an endpoint based on their geographic location
 
-      ![image](https://user-images.githubusercontent.com/62194896/161920516-48c594d5-7ac3-41a1-898f-fd8ded989d63.png)
+    ![image](https://user-images.githubusercontent.com/62194896/161920516-48c594d5-7ac3-41a1-898f-fd8ded989d63.png)
 
 
 
