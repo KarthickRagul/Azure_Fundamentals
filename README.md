@@ -263,130 +263,130 @@ On the on-premise side, you need to have a VPN device that can route traffic via
 * This service is used to store objects(Images, Videos, files, etc.) on the cloud.
 * Here you can make use of different services - Blob, File shares, Queues, Table
    
-   ## Types of different storage accounts
+## Types of different storage accounts
        
-       * Standard general purpose v2 (Gives access to blob, files, queue, table)
-       * Premium block blobs (This is the premium storage for your block blobs)
-       * Premium File Shares (This is the premium storage account for ur file shares)
-       * Premium page blobs (This is the premium storage account for ur page blobs)
+* Standard general purpose v2 (Gives access to blob, files, queue, table)
+* Premium block blobs (This is the premium storage for your block blobs)
+* Premium File Shares (This is the premium storage account for ur file shares)
+* Premium page blobs (This is the premium storage account for ur page blobs)
        
-   ## Blob Storage
+## Blob Storage
    
-       * This service is for optimized for storing large amount of unstructured data
-       * Examples : Storing images, videos, log files, documents
-       * In this blob service, ucan create container. This is used to organize a set of blobs
-       * Block blobs - This is used to store text and binary data
-       * Page blobs - This is used to store virtual hard drive files that are used as disks for ur azure VM's
+* This service is for optimized for storing large amount of unstructured data
+* Examples : Storing images, videos, log files, documents
+* In this blob service, ucan create container. This is used to organize a set of blobs
+* Block blobs - This is used to store text and binary data
+* Page blobs - This is used to store virtual hard drive files that are used as disks for ur azure VM's
    
-   ## File Service 
+## File Service 
    
-       * This is used for hosting file shares on the cloud
-       * This shares can be accessed via the SMB - Server Message blob protocol
-       * You can mount the files from windows, linux, macOS clients.
+ * This is used for hosting file shares on the cloud
+ * This shares can be accessed via the SMB - Server Message blob protocol
+ * You can mount the files from windows, linux, macOS clients.
     
-   ## Azure Queues
+## Azure Queues
    
-       * This is used for storing large amount of messages
-       * These messages can be accessed from anywhere in the world by HTTP, HTTPS protocols
-       * You can store millions of messages in queue
+ * This is used for storing large amount of messages
+ * These messages can be accessed from anywhere in the world by HTTP, HTTPS protocols
+ * You can store millions of messages in queue
     
-   ## Azure Table
+## Azure Table
     
-       * This service is used for storing non-relational structured data
-       * It is ideal for storing flexible data sets bacause it does not conform to any sort of schema
-       * In the table, you can store an entity which is a set of properties
-       * A property is nothing but a name-value pair
-       * The partition key is used to split the data across various partitions. And the row key is used to identify an item within a partition.
+ * This service is used for storing non-relational structured data
+ * It is ideal for storing flexible data sets bacause it does not conform to any sort of schema
+ * In the table, you can store an entity which is a set of properties
+ * A property is nothing but a name-value pair
+ * The partition key is used to split the data across various partitions. And the row key is used to identify an item within a partition.
     
-  ## Active Tiers
+## Active Tiers
       
-      * **Hot** : This is optimized for data that is accessed frequently.
-      * **Cool** : This is for data that is infrequently accessed ans stored for atleast 30 days.
-      * **Archive** : This is for data that is rarely accessed ans stored for atleast 180 days.
+ * Hot : This is optimized for data that is accessed frequently.
+ * Cool : This is for data that is infrequently accessed ans stored for atleast 30 days.
+ * Archive : This is for data that is rarely accessed ans stored for atleast 180 days.
 
-  ## Data Redundancy 
+## Data Redundancy 
   
-      * **Locally Redundant Storage** : Data is copied synchronously three times within a single physical location in the primary region.
-      * **Zone Redundant Storage** : Data is copied synchronously three availability zones in the primary region.
-      * **Geo-Redundant Storage**: Data is copied synchronously three times within a single physical location in the primary region using LRS. It then copies your data asy to a single physical location in the secondary region.
-      * **Geo-Zone-redundant storage** : Data is copied synchronously three availability zones in the primary region using ZRS. It then copies ur data asy to a single physical location in the secondary region 
+ * **Locally Redundant Storage** : Data is copied synchronously three times within a single physical location in the primary region.
+ * **Zone Redundant Storage** : Data is copied synchronously three availability zones in the primary region.
+ * **Geo-Redundant Storage**: Data is copied synchronously three times within a single physical location in the primary region using LRS. It then copies your data asy to a single physical location in the secondary region.
+ * **Geo-Zone-redundant storage** : Data is copied synchronously three availability zones in the primary region using ZRS. It then copies ur data asy to a single physical location in the secondary region 
  
  
- ## Azure SQL DataBase 
+## Azure SQL DataBase 
  
-      * This is a PAAS Service, It's underlined infrastructure is managed for you. Backups are managed for you, gives high availability
+  * This is a PAAS Service, It's underlined infrastructure is managed for you. Backups are managed for you, gives high availability
       
-      * Azure database for MySql :
-          * Mysql is a open-source RDBMS
-          * We can store the data in the form of tables
-          * We can query using SQL
-          * It is a fully managed database service
-          * Underlying platform is managed by the service itself
-          * High availability, backups, patching as well
-          * Note : While connecting to mysql server from mysql workbench(Client tool) we need to enable client ip address option in 'Connection Security' in the resource
+  * Azure database for MySql :
+      * Mysql is a open-source RDBMS
+      * We can store the data in the form of tables
+      * We can query using SQL
+      * It is a fully managed database service
+      * Underlying platform is managed by the service itself
+      * High availability, backups, patching as well
+      * Note : While connecting to mysql server from mysql workbench(Client tool) we need to enable client ip address option in 'Connection Security' in the resource
           
-      * Azure database for PostgreSQL :
-          * It is also open-source
-          * It has support for transaction that follow the ACID concepts - Atomicity, Consistency, Isolation, Duralability
-          * It also supports views, triggers, foreign keys, stored procedures
-          * Fully managed database service
-          * Underlying infra is managed by the service itself
-          * High availability, backups and patching as well
+   * Azure database for PostgreSQL :
+      * It is also open-source
+      * It has support for transaction that follow the ACID concepts - Atomicity, Consistency, Isolation, Duralability
+      * It also supports views, triggers, foreign keys, stored procedures
+      * Fully managed database service
+      * Underlying infra is managed by the service itself
+      * High availability, backups and patching as well
           
-      * Azure Pricing Tiers :
-          1. Database Transaction Units
-             * This is a blended measure of CPU, memory, input/output 
-             * There are some different models available 
-                 * Basic   * Standard   * Premium
-          2. vCore based purchasing model
-             * we can independently scale compute and storage
-             * WE can make use of the HYBRID benefit model if we have the license
-          3. Managed Instance 
-             * This is a deployment model that provides native integration with the azure virtual network service
-             * It provides 100% Compatibility with the latest sql server features
-             * Infra is managed for u
-             * Easy Migration of on-premises databases to the managed instance
+   * Azure Pricing Tiers :
+      1. Database Transaction Units
+        * This is a blended measure of CPU, memory, input/output 
+        * There are some different models available 
+              * Basic   * Standard   * Premium
+      2. vCore based purchasing model
+        * we can independently scale compute and storage
+        * WE can make use of the HYBRID benefit model if we have the license
+      3. Managed Instance 
+        * This is a deployment model that provides native integration with the azure virtual network service
+        * It provides 100% Compatibility with the latest sql server features
+        * Infra is managed for u
+        * Easy Migration of on-premises databases to the managed instance
  
  ## Azure Datawarehouse Enterprise Architecture
  
-        1. Ingest : Data Synapse Pipeline, Data Lake
-        2. Store : Azure data lake gen 2 storage account 
-        3. Prep and Train : Azure synapse apache spark, Azure synapse dedicated sql pool 
+   1. Ingest : Data Synapse Pipeline, Data Lake
+   2. Store : Azure data lake gen 2 storage account 
+   3. Prep and Train : Azure synapse apache spark, Azure synapse dedicated sql pool 
         
-        (Note : while creating storage account need to select checkbox for enable hierarchical namespace for Data lake)
+   (Note : while creating storage account need to select checkbox for enable hierarchical namespace for Data lake)
         
  ## Azure Cosmos DB
        
-        * It is a No-sql database or Non-relational database
-        * It is fully managed nosql database
-        * The database provides fast response and is highly scalable
-        * Infra is managed by service itself
-        * Commonly used for web, mobile, gaming and IOT appplication that needs to be handled mssive amount of data
+   * It is a No-sql database or Non-relational database
+   * It is fully managed nosql database
+   * The database provides fast response and is highly scalable
+   * Infra is managed by service itself
+   * Commonly used for web, mobile, gaming and IOT appplication that needs to be handled mssive amount of data
         
-        ### CosmosDB API
-        * Core SQL API : If u want to query for items using sql
-        * MongoDB API : If u want to host a MongoDB compatible database
-        * Cassandra API : If u want to host a Cassandra compatible database
-        * Gremlin API : If u want to host a graph-based database
-        * Table API :If u want to host a tables-based database
+   ### CosmosDB API
+   * Core SQL API : If u want to query for items using sql
+   * MongoDB API : If u want to host a MongoDB compatible database
+   * Cassandra API : If u want to host a Cassandra compatible database
+   * Gremlin API : If u want to host a graph-based database
+   * Table API :If u want to host a tables-based database
         
- ## Difference between Azure SQL database and Azure cosmosDB
+## Difference between Azure SQL database and Azure cosmosDB
  
-        * Azure sql database : when u need to have relationship between tables, when u want to have a constraints like foreign key
-        * Azure cosmosDB : No sql data store, flexible schema, no need to joins between data structures
+   * Azure sql database : when u need to have relationship between tables, when u want to have a constraints like foreign key
+   * Azure cosmosDB : No sql data store, flexible schema, no need to joins between data structures
 
 ## Azure Databricks
         
-        * It is a platform as a service, underlying infra is managed by the service itself. 
-        * It is fully managed, cloud based platform used for Big data and Machine Learning
-        * Databricks itself as a tool that is used to analyzeyour data
-        * It is based on **Apache Spark**
-        * Apache spark is a processing engine that is used to analyze big data using SQL, machine learning, graph processing, or real time stream analysis
-        * Azure Data bricks is a managed version of Databricks
+   * It is a platform as a service, underlying infra is managed by the service itself. 
+   * It is fully managed, cloud based platform used for Big data and Machine Learning
+   * Databricks itself as a tool that is used to analyzeyour data
+   * It is based on **Apache Spark**
+   * Apache spark is a processing engine that is used to analyze big data using SQL, machine learning, graph processing, or real time stream analysis
+   * Azure Data bricks is a managed version of Databricks
         
-   ## Complete Notes on Azure storage 
+## Complete Notes on Azure storage 
    
-   ## Azure Storage Accounts
+## Azure Storage Accounts
 
 ### Types of storage accounts
 
@@ -572,6 +572,140 @@ The following can be used as a reference for the previous chapter
 3. To list down the resource groups in your Azure account, you can use the following command
 
    az group list
+   
+## Azure App Service
+
+* This is an HTTP-based service that allows you to host web applications, REST API's and mobile back ends. You can develop a program in programming languages such as .NET, .NET Core, Java, Ruby, Node.js, PHP and Python.
+
+* Here you don't need to manage the underlying infrastructure. It allows you to focus on code development.
+
+* Each App service needs to be associated with an App Service Plan.
+
+* Each App service plan has an associated cost per month and also has specific features based on the plan you choose.
+
+## Virtual Machine Scale Sets
+
+* This service allows you to create and manage a group of identical load balanced virtual machines.
+
+* Here the number of Virtual Machine instances in the scale set can scale based on demand
+
+* This is the best service if you want to add scalability to your application
+
+## Azure Load Balancer
+
+* The Azure Load balancer is used to distribute incoming network traffic to a backend group of servers.
+
+* This service helps increase the availability of your entire application architecture
+
+* Here the Load Balancer would take the incoming requests from the users and direct the requests to virtual machines running in an Azure virtual network.
+
+* If you have a web application running on the backend virtual machines, the requests would be distributed across the virtual machines by the Azure Load Balancer.
+
+## Other tools to access Azure resources
+
+* You can use other tools to access and work with Azure resources
+
+* You can use PowerShell which can work on Windows, macOS and Linux
+
+* You can use the Azure command line interface which can work on Windows, macOS and Linux
+
+* You can use Azure cloud shell from the browser, which can then work on any operating system which has browser support
+   
+## Azure Functions
+
+* This service allows you to run small pieces of code as functions
+* Here you just develop and upload the code to an azure function
+* You get billed for the amount of time you code gets run
+* You can use many languages like C#, Java, Python, Powershell
+
+### Azure Function Triggers
+
+* HTTP Trigger : Here an HTTP call can be made to the function
+* Timer : Here the function can be run on a schedule
+* Blob Storage : Whenever a blob event occurs 
+* Azure services : Azure event hubs, Azure service bus
+
+### Pricing plans
+
+* Consumption Plan – Here you only pay for the time the code runs.
+* App Service Plan – If you already have an App Service plan that runs a web application, you can reuse the same plan to run Azure Functions. This would save on cost if you already have an App Service Plan in place.
+* Premium Plan – Here you get a number of pre-warmed instances that are always online and ready to run your functions. The plan also automatically adds more compute when required.
+
+## Azure Logic Apps
+
+* This is a cloud service that helps you schedule, automate and orchestrate tasks , business processes and workflows.
+
+### How it works
+
+* You first design a workflow in Azure Logic Apps
+
+* Each workflow starts with a trigger.
+
+* The trigger is fired via a specific event
+
+* When the trigger is fired , the Logic App engine creates a logic app instance that runs the workflow.
+
+### Connectors for Azure Logic Apps
+
+* These connectors provide easy access to event, data and actions that are sent from external applications, services , systems or platforms.
+
+* You have built-in connectors that can connect to Azure services such as Azure functions, Azure API Apps etc.
+
+* You have Managed connectors that can connect to platforms such as Office 365, Microsoft Dynamics.
+
+## Azure Traffic Manager
+
+* The Azure Traffic Manager service is a DNS-based traffic load balancer that distributes traffic across services that are distributed across different Azure regions.
+
+* The Traffic Manager service is used to direct client requests to the most appropriate service endpoint that is based on a traffic-routing method and the health of the endpoints.
+
+### The different traffic routing methods available for the Azure Traffic Manager are
+
+1. Priority – Route traffic to another endpoint in case the primary fails.
+
+2. Weighted – Route traffic to different endpoints based on weight.
+
+3. Performance - you want end users to use the "closest" endpoint in terms of the lowest network latency.
+
+4. Geographic - geographic location their DNS query originates from.
+
+5. Multivalue – Here different endpoints are sent to the client. The client then selects the endpoint to send the request to.
+
+6. Subnet – This maps a set of end-user IP address ranges to a specific endpoint within a Traffic Manager profile.
+
+* Below is an example of the Priority routing method that can be used with the Azure Traffic Manager service
+
+      Here we are assuming that a company has similar web applications , both are running using the Azure Web App service. One web application is running in the East         US Region and the other is running in the West US Region.
+      
+      ![image](https://user-images.githubusercontent.com/62194896/161919715-a8ad1661-6400-4ac3-b869-3f3852c5706b.png)
+      
+      1. Here we create a Traffic Manager profile and create two endpoints. Each endpoint points to each Azure Web app respectively. We assign a priority of 1 to the         service endpoint attached to the Azure Web App running in the East US region and  a priority of 2 to the other service endpoint.
+
+      1. Here users would make requests to the Traffic Manager service.
+
+      2. The requests could be initially be directed to an Azure Web App located in the East US region , since there is a priority of 1 to the service endpoint               attached to this endpoint.
+
+      ![image](https://user-images.githubusercontent.com/62194896/161919937-50608cbb-8e2b-48a9-84fa-0b0b7c4622eb.png)
+      
+* If you use the Weighted Routing method , you can actually load balance requests across multiple service endpoints
+
+      ![image](https://user-images.githubusercontent.com/62194896/161920220-52a5b58a-9ea2-44a0-a170-3e0b4f11c8be.png)
+
+      Over here , users requests would be directed or load balanced across both web applications running in different regions.
+      
+* In the Performance routing method as shown below, users will be directed based on the least latency of an endpoint.
+      
+      [image](https://user-images.githubusercontent.com/62194896/161920413-2c3e84e8-9681-4ed6-9532-cdfed02daa2b.png)
+      
+* And then we have the Geographic routing method wherein users would be directed to an endpoint based on their geographic location
+
+      ![image](https://user-images.githubusercontent.com/62194896/161920516-48c594d5-7ac3-41a1-898f-fd8ded989d63.png)
+
+
+
+
+
+
 
 
 
