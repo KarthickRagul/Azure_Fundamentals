@@ -675,15 +675,15 @@ The following can be used as a reference for the previous chapter
 
 * Below is an example of the Priority routing method that can be used with the Azure Traffic Manager service
 
-      Here we are assuming that a company has similar web applications , both are running using the Azure Web App service. One web application is running in the East         US Region and the other is running in the West US Region.
+    Here we are assuming that a company has similar web applications , both are running using the Azure Web App service. One web application is running in the East         US Region and the other is running in the West US Region.
       
     ![image](https://user-images.githubusercontent.com/62194896/161919715-a8ad1661-6400-4ac3-b869-3f3852c5706b.png)
       
-      1. Here we create a Traffic Manager profile and create two endpoints. Each endpoint points to each Azure Web app respectively. We assign a priority of 1 to the         service endpoint attached to the Azure Web App running in the East US region and  a priority of 2 to the other service endpoint.
+    1. Here we create a Traffic Manager profile and create two endpoints. Each endpoint points to each Azure Web app respectively. We assign a priority of 1 to the         service endpoint attached to the Azure Web App running in the East US region and  a priority of 2 to the other service endpoint.
 
-      1. Here users would make requests to the Traffic Manager service.
+    1. Here users would make requests to the Traffic Manager service.
 
-      2. The requests could be initially be directed to an Azure Web App located in the East US region , since there is a priority of 1 to the service endpoint               attached to this endpoint.
+    2. The requests could be initially be directed to an Azure Web App located in the East US region , since there is a priority of 1 to the service endpoint               attached to this endpoint.
 
     ![image](https://user-images.githubusercontent.com/62194896/161919937-50608cbb-8e2b-48a9-84fa-0b0b7c4622eb.png)
       
