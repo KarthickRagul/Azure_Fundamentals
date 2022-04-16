@@ -702,13 +702,195 @@ The following can be used as a reference for the previous chapter
     ![image](https://user-images.githubusercontent.com/62194896/161920516-48c594d5-7ac3-41a1-898f-fd8ded989d63.png)
 
 
+## Monitoring in Azure
+For all monitoring aspects you can head over to Azure Monitor.
 
+1. You can use the Metrics section to view the entire metrics for your Azure resources
 
+![image](https://user-images.githubusercontent.com/62194896/163670627-3323a30c-7e87-4247-b7f1-87a0fb81b4e6.png)
 
+2. You can use the Activity Log feature to look at all the control plane activities. So if someone has shutdown a virtual machine, you would be able to see who shutdown the virtual machine in the Activity Logs.
 
+![image](https://user-images.githubusercontent.com/62194896/163670651-d2273a73-bbfa-4fa6-879d-8b772259a812.png)
 
+3. You can also view any service related issues in the Service health module of Azure Monitor
 
+![image](https://user-images.githubusercontent.com/62194896/163670667-3f9ab900-4267-411f-bd1a-70d7458703e2.png)
 
+4. You can also create a service health alert in Azure Service Health
 
+![image](https://user-images.githubusercontent.com/62194896/163670679-6a443e85-4825-4e49-9321-32bb7dd9be10.png)
 
+5. You can also direct logs from various resources such as Azure virtual machines onto the Logs section. Here you have to create a Log Analytics workspace to store the logs
+
+![image](https://user-images.githubusercontent.com/62194896/163670695-e32382c7-b4e0-4c6b-bae3-d4afb876ae78.png)
+
+## Azure Kuberntes
+What is Kubernetes?
+
+* This is an open-source platform that is used to managing containerized workloads.
+
+* Kubernetes is able to provide a DNS name to your container.
+
+* If there is a high load on your containers , Kubernetes can load balance and distribute network traffic.
+
+* Kubernetes can also restart containers that fail.
+
+* It can be used to replace or kill containers.
+
+* It also helps to store and manage sensitive information such as passwords, OAuth tokens and ssh keys
+
+What is Azure Kubernetes?
+
+* Fully managed Kubernetes service on Azure.
+
+* Makes it easy to deploy and manage containerized applications.
+
+* It helps to remove the burden of managing the underlying infrastructure for the Kubernetes deployment.
+
+## Azure Content Delivery Network
+
+This is an ideal service to use for your web applications. If you need content to be distributed to users across the world for your web sites , then its ideal to use the Azure Content Delivery Network Service
+
+![image](https://user-images.githubusercontent.com/62194896/163670774-a95ff9b6-b3b2-472e-aa93-a0c2ece4f21d.png)
+
+* Here the users are directed on various Edge servers by the Content Delivery Network service.
+
+* The Edge servers will get the content from your web site and also cache frequently accessed content.
+
+* The Edge servers are located across the world , so it gives all users a seamless experience when it comes to accessing your web site.
+
+## Azure Advisor
+Use this tool to get various recommendations on aspects such as Cost, Security and High Availability.
+
+## Application Insights
+Points on this service
+
+* Application Performance Management service for web developers.
+
+* You can use this tool to monitor your applications.
+
+* It can help developers detect anomalies in the application.
+
+* It can help diagnose issues.
+
+* It can also help understand how users use your application.
+
+* It also helps you improve performance and usability of your application.
+
+### How does it work
+
+* You install a small instrumentation package within your application.
+
+* You can see the statistics of your application locally in Visual Studio as you run your application.
+
+* You can also use the Application Insights resource in Azure to monitor your application.
+
+### What are the different aspects monitored by Application Insights
+
+* Request rates, the response times and failure rates – This is done at the page level.
+
+* Exception recorded by your application.
+
+* Page views and their load performance as reported from the user’s browser.
+
+* User and session counts.
+
+* Performance counters of the underlying Windows or Linux Machines.
+
+* Diagnostic trace logs from your application.
+
+* Any custom events or metrics that the developer writes themselves in the code.
+
+## Azure Cognitive services
+
+* Azure Cognitive Services are API’s , SDK’s and services available for helping developers building intelligent applications.
+
+* Here the developer does not need to have any AI or data science skills.
+
+* There are many services available for developers to make use of
+
+* Computer Vision – This helps developers process images and return information. You just supply the image, and the service can help identify the image.
+
+* This service can detect objects, help provide categories for the image.
+
+* It can also detect color , faces , help describe an image.
+
+* It can also extract text from images.
+
+* It can also help moderate content in images.
+
+### Face API – This can be used to detect, recognize and analyze human faces in images.
+
+* It can also help find similar faces from a set of images.
+
+* It can also help identify a detected face against a database of people.
+
+### Speech services
+
+* You can use the Speech-to-Text service to translate speech to text.
+
+* You can also generate synthesized speech from text using Text-to-Speech.
+
+## Azure Machine Learning
+
+* Machine learning is the process that enables computers to use existing data to forecast future behaviors , outcomes and trends.
+
+* Here the computers don’t need to be programmed on how to learn.
+
+* Azure Machine Learning gives you a cloud-based environment for preparing data, train the data, testing, deploying and managing machine learning models.
+
+* You get a visual interface which can be used to drag and drop modules to build experiments and deploy models.
+
+### Machine Learning Studio – This is a drag-and-drop visual workspace which you can use to build, test and deploy machine learning solutions without the need of writing any sort of code.
+
+* This tool has prebuilt and preconfigured machine learning algorithms.
+
+## Azure HDInsight
+
+* This is a cloud distribution of Hadoop based components.
+
+* Azure HDInsight allows you to process large amounts of data.
+
+* You can use HDInsight for a variety of big data processing scenarios such as Data warehousing , Batch processing and for Data science as well.
+
+* You can create different types of clusters – Apache Hadoop, Apache Spark, Apache Hbase.
+
+* HDInsight also supports a host of programming languages such as Java, Python, .Net and Go
+
+## Azure DevOps
+
+* This is a complete set of tools that can be used to help teams to plan work, collaborate on code development and build and deploy applications.
+
+* Azure DevOps have the following services in place
+
+1. Azure Repos – This allows you to host Git repositories or use Team Foundation Version Control.
+
+2. Azure Pipelines – This provides build and release services for continuous integration and release.
+
+3. Azure Boards – This helps to plan and track work items.
+
+4. Azure Test Plans – This provides tools for testing of applications.
+
+5. Azure Artifacts – This allows teams to share Maven, npm and NuGet packages from public and private sources
+
+## Azure DevTest Labs
+
+* This service allows developers to efficiently self-manage virtual machines and PaaS resources without the need to wait for approvals.
+
+* The DevTest Labs can be used to create labs consisting of pre-configured bases or Azure Resource Manager templates.
+
+* With DevTest Labs, you can quickly provision Windows and Linux based environment through the use of reusable templates and artifacts.
+
+* You can easily create load testing environments and create environments for training and demos.
+
+* This service also helps in optimizing costs through the following features
+
+* Here you can set an auto-shutdown and auto-start schedules for virtual machines.
+
+* You can set policies on the number of virtual machines users can create.
+
+* You can set policies on the size of the virtual machine.
+
+* You can track costs
 
