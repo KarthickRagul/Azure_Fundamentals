@@ -894,3 +894,195 @@ Points on this service
 
 * You can track costs
 
+# Azure Security, Privacy, Compilance and Trust
+
+## Azure Active Directory
+
+* This is your identity system in Azure. Here you can define users and groups and provide them permissions to your resources.
+![image](https://user-images.githubusercontent.com/62194896/165686525-a7f54ab1-9ac0-4ef8-ba28-76f709d9e136.png)
+* Here you can also define external users who can have access to resources in Azure.
+
+## Multi-Factor Authentication
+
+* You can also enable Multi-Factor authentication for users. Here users need to use an additional mechanism in addition to the user name and password to log into Azure.
+
+* You can also make use of Conditional Access policies to create conditions to allow or deny users to log into Azure.
+
+## Other security related aspects
+1. GDPR (General Data Protection Regulation)
+
+* This is a set of rules that helps EU citizens have more control over their personal data
+
+* Under this compliance schema, organizations have to ensure that personal data is gathered legally and under strict conditions.
+
+* Also organizations have to manage the data in such a way that it is protected from misuse or exploitation.
+
+## ISO (International Organization for Standardization)
+
+* This is an international body that is responsible for setting international standards.
+
+* This is an independent, non-government organization.
+
+* It consists of members from around 160+ member countries.
+
+## NIST (National Institute of Standards and Technology)
+
+* This is an organization which looks at U.S. innovation.
+
+* They do this by looking at measurement of science, standards and technology.
+
+## Azure Blueprints
+
+* This is a service that allows you to define a repeatable set of Azure resources.
+
+* The definition of the Azure resources can adhere to an organization’s standards, patterns and requirements.
+
+* Using blueprints , you can orchestrate the deployment of resources such as role assignments, policy assignments, Azure resource manager templates and resource groups.
+
+* Some differences between Azure blueprints and resource manager templates
+
+* You can use blueprints to upgrade several subscriptions at once .
+
+* The relationship between the blueprint definition and the blueprint assignment is reserved.
+
+## Azure Security Center
+
+* This is an infrastructure security management system.
+
+* You can use this tool to improve the security of your Azure based resources and on-premise resources as well.
+
+* Azure Security Center has in-built support for services such as Azure virtual machines , Function Apps, Azure SQL Server databases.
+
+* You can also allow Azure Security Center to give recommendations on what to do for on-premise Windows and Linux servers.
+
+* On these servers, you need to ensure you install the Microsoft Monitoring agent.
+
+* This service also helps detect and prevent threats at an Infrastructure layer
+
+## Azure AD Identity Protection
+
+* This is a service that can help detect suspicious actions related to user identities
+
+* This helps add more security to the sign-ins to your Azure AD Account.
+
+* This service can help detect the following
+
+   1. Users with leaked credentials
+
+   2. Sign-ins from anonymous IP addresses
+
+   3. Sign-ins from infected devices
+
+   4. Sign-ins from IP addresses with suspicious activity
+
+   5. Sign-ins from unfamiliar locations
+
+   6. Impossible travel to atypical locations
+
+## Azure AD Privileged Identity Management
+
+* This is a service that can help manage, control and monitor access to important resources in your organization.
+
+* With this service, you can provide just-in-time privileged access to Azure AD and Azure resources.
+
+* Provide time-bound access to resources using start and end dates.
+
+* Enforce multi-factor authentication to activate any role.
+
+* Get notifications when privileged roles are activated.
+
+* Conduct access reviews to ensure users still require the roles.
+
+Refer the below link for more details about security : 
+https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-welcome
+https://servicetrust.microsoft.com/
+
+## Azure Firewall
+
+* This is a managed, cloud-based network security service that can be used to protect your network resources.
+
+* It has features such as Threat intelligence – This can filter incoming requests and alert or deny traffic from/to malicious IP addresses and domains.
+
+* The firewall itself has built-in high availability.
+
+* It can scale automatically based on network traffic flows.
+
+![image](https://user-images.githubusercontent.com/62194896/165689282-75bc50bd-de88-41df-a12f-d9c28041b7a4.png)
+
+* Here you can ensure that all traffic from machines in an Azure virtual network flows via the Azure Firewall service.
+
+## Azure DDoS protection
+
+* This service helps protect against Distributed denial of service attacks.
+
+* This is probably the biggest security concern for companies when they expose their applications to the Internet.
+
+* You have 2 plans for Azure DDoS protection.
+
+1. Basic – This is automatically enabled. This continuously monitors traffic in real time and looks at mitigation of common network-level attacks.
+
+2. Standard – This is a paid plan. But you get many benefits
+
+   * Here you can get real time attack metrics and diagnostic logs via Azure Monitor
+
+   * You can get help from DDoS Experts during a live attack
+
+## Azure Information protection
+
+* This is a solution that can help an organization classify and protect its documents and email by applying labels.
+
+* The labels can be applied automatically by administrators through the use of rules and conditions.
+
+* The labels can use visual markers on documents to tell the user the classification of the document
+
+## Azure Advanced Threat Protection
+
+* This is a cloud-based security tool that can be used to identify, detect and investigate advanced threats, compromised identities.
+
+* This service can be used to protect identities and credentials stored in Active Directory.
+
+* When monitoring your on-premise Active Directory domain controllers, you need to install an Azure ATP sensor on the domain controller.
+
+* It can be used to identify and investigate suspicious user activities and advanced attacks.
+
+## Azure Key Vault
+
+* Helps you perform Secrets management – Here you can securely store your tokens, passwords , certificates , API keys and other secrets
+
+* You can use this service to create encryption keys. You can then use these encryptions keys to encrypt your data.
+
+* You can also easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
+
+* All of the secrets and keys are safeguarded by Azure, using industry-standard algorithms, key lengths, and hardware security modules (HSMs).
+
+* You can also monitor all the key vault activity by enabling logging. The logs can be sent to an Azure storage account, to an event hub or to Azure Monitor logs.
+
+## Azure Policies
+
+* This service can be used to create, assign and manage policies.
+
+* You can use these policies to ensure that resources in your Azure account remain compliant with corporate standards and service level agreements.
+
+* You can use in-built policies or even define your own policies
+
+## Role-based access control
+
+* This can be used to assign access to resources in Azure.
+
+* For example if you wanted to give access to a user to manage virtual machines in your subscription, you can use role based access control
+
+* Roles can be accessed at different scopes - Subscription, Resource groups and resources
+![image](https://user-images.githubusercontent.com/62194896/165691478-0aa98bb8-1b4b-4901-9bdf-6280282cd39e.png)
+
+Reference : 
+https://docs.microsoft.com/en-us/azure/role-based-access-control/overview
+
+## Microsoft Privacy statement
+To understand the data that gets collected from Microsoft when you use their products, you can refer to the Microsoft Privacy statement
+https://privacy.microsoft.com/en-us/privacystatement
+
+
+
+
+
+
