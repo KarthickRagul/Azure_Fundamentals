@@ -902,6 +902,8 @@ Points on this service
 ![image](https://user-images.githubusercontent.com/62194896/165686525-a7f54ab1-9ac0-4ef8-ba28-76f709d9e136.png)
 * Here you can also define external users who can have access to resources in Azure.
 
+* Refer the link for some premium plans in Azure for Active Directory : https://docs.microsoft.com/en-in/azure/active-directory/authentication/concept-mfa-licensing#available-versions-of-azure-ad-multi-factor-authentication
+
 ## Multi-Factor Authentication
 
 * You can also enable Multi-Factor authentication for users. Here users need to use an additional mechanism in addition to the user name and password to log into Azure.
