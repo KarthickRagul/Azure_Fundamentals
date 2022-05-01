@@ -1083,6 +1083,43 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/overview
 To understand the data that gets collected from Microsoft when you use their products, you can refer to the Microsoft Privacy statement
 https://privacy.microsoft.com/en-us/privacystatement
 
+# Azure Pricing and Support
+
+## Azure services lifecycle
+
+* Remember that Azure keeps on updating their services from time to time. They will add new features of even deploy newer services from time to time.
+
+* Refer to the link for all updates to Azure services - https://azure.microsoft.com/en-us/updates/
+
+* For services in public preview , you can actually view them from the Azure portal itself. These services are available for review for all customers.
+![image](https://user-images.githubusercontent.com/62194896/166133747-3016fec2-b115-4264-a9d0-b2d0d1462fac.png)
+
+* Note that it is not advisable to deploy resources based on these services to your production environment because there would  be no SLA attached to these services.
+
+* You can view services in private preview - Here you need to request Microsoft to preview these services.
+
+* Also keep a note that any services that go out of support , Microsoft will give you at least 12 months of prior notification
+
+* You can view these terms via the following link : https://support.microsoft.com/en-us/help/30881
+
+
+1. Service lifecycle (Updates) : https://azure.microsoft.com/en-us/updates/
+2. Support Plans: https://azure.microsoft.com/en-us/support/plans/
+![image](https://user-images.githubusercontent.com/62194896/166133783-fc58919d-2437-420f-85b7-102fb559aa0e.png)
+4. Azure Adoption Framework : https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/
+5. Azure Adoption Assessment : https://docs.microsoft.com/en-us/assessments/ (Take assessment and get Recommendations)
+6. Azure SLA : https://azure.microsoft.com/en-us/support/legal/sla/
+![image](https://user-images.githubusercontent.com/62194896/166133798-e5dbecc7-5757-4ad9-a3c5-286255c07159.png)
+7. Azure Calculator : https://azure.microsoft.com/en-us/pricing/calculator/  (With the help of this, we can calculate the pricing)
+8. Azure TCO Calculator : https://azure.microsoft.com/en-us/pricing/tco/calculator/  (With the help of this, we can calculate the pricing)
+![image](https://user-images.githubusercontent.com/62194896/166133802-bc15d639-dc2c-4aef-85c1-d14d848aaac6.png)
+
+Tags : It is used to group the resource groups and also used for billing purpose
+
+Reserved Instances : Upfront commitment for azure resources and get the discounts for it. Refer the link : https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/
+
+Azure SQL  Server Reserved Capacity : https://docs.microsoft.com/en-us/azure/azure-sql/database/reserved-capacity-overview?view=azuresql
+
 
 
 
